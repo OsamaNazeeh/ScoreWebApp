@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
+    </head>
+    <body>
+        <div class="container">
+            <div class="score-info">
+                <h3>HOME</h3>
+                <div class="score-el" id="team1-score">0</div>
+                <div class="increment-by"> 
+                    <button onclick="incrementTeamOneBy(1)">+1</button>
+                    <button onclick="incrementTeamOneBy(2)">+2</button>
+                    <button onclick="incrementTeamOneBy(3)">+3</button>
+                </div>
+            </div>
+            <div class="score-info">
+                <h3>GUEST</h3>
+                <div class="score-el" id="team2-score">0</div>
+                <div class="increment-by"> 
+                    <button onclick="incrementTeamTowBy(1)">+1</button>
+                    <button onclick="incrementTeamTowBy(2)">+2</button>
+                    <button onclick="incrementTeamTowBy(3)">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
